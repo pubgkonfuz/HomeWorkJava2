@@ -1,6 +1,6 @@
 package practic;
 
-public class IllegalAgeException extends Exception{
+public class IllegalAgeException extends RuntimeException{
     public IllegalAgeException(String message) {
         super(message);
     }
